@@ -4,6 +4,7 @@ import recipesJson from "./recipes.json"
 
 import { MiniRecipeLine } from "./components/MiniRecipe";
 import Homepage from "./components/pages/homepage"
+import RecipeList from "./components/pages/RecipeList"
 import Header from "./components/header"
 import Footer from "./components/footer"
 
@@ -11,6 +12,7 @@ import Footer from "./components/footer"
 const loadRecipePage = (recipe) => {
   console.log(recipe)
 }
+
 
 function App() {
   const [recipes, setRecipes] = useState(recipesJson.recipeList) // Loads recupes into state
@@ -22,10 +24,12 @@ function App() {
   const homemadeClassics = []
   const homepageData = [christmasSpecials, loadRecipePage]
 
+  const allRecipes  = Object.entries(recipes)
+
   return (
     <div>
       <Header></Header>
-      <Homepage recipeLineInfo={homepageData}></Homepage>
+      <RecipeList recipes={allRecipes} pageText={"Recent Recipes"}></RecipeList>
       <Footer></Footer>
     </div>
   );

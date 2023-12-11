@@ -15,10 +15,11 @@ function App() {
 
   const christmasSpecials = [recipes.chestnut, recipes.roastDinner]
   const homemadeClassics = []
+  const homepageData = [christmasSpecials, loadRecipePage]
 
   return (
     <div>
-      <Homepage specials={christmasSpecials}></Homepage>
+      <Homepage recipeLineInfo={homepageData}></Homepage>
     </div>
   );
 }

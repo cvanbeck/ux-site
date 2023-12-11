@@ -18,7 +18,7 @@ function App() {
   const [favourites, setFavourites] = useState([])
   const [recipePage, setRecipePage] = useState(null)
 
-  const christmasSpecials = [recipes.chestnut, recipes.roastDinner]
+  const christmasSpecials = [recipes.chestnut, recipes.roastDinner, recipes.christmasPudding]
   const homemadeClassics = []
   const homepageData = [christmasSpecials, loadRecipePage]
 

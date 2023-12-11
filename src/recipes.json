@@ -1,0 +1,26 @@
+{
+    "data": { 
+        "recipename": "Roast Chestnuts",
+        "id": 1,
+        "brief": "Roasted chestnut is a popular autumn and winter street food in East Asia, Europe, and New York City. Asian chestnuts as well as European chestnuts can be used.",
+        "image": "chestnuts.png",
+        "alt": "image alt text",
+        "rating": "None",
+        "ingredients": [
+            {
+                "1": "ingredient",
+                "2": "ingredient",
+                "3": "ingredient"
+            }
+        ],
+        "larger-intro": "Larger intro paragraph for recipe page",
+        "instructions": [
+            {
+                "1": "step 1",
+                "2": "step 2",
+                "3": "step 3"
+            }
+        ]
+    }
+}
+

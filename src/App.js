@@ -5,6 +5,7 @@ import recipesJson from "./recipes.json"
 import { MiniRecipeLine } from "./components/MiniRecipe";
 import Homepage from "./components/pages/homepage"
 import Header from "./components/header"
+import Footer from "./components/footer"
 
 
 const loadRecipePage = (recipe) => {
@@ -25,6 +26,7 @@ function App() {
     <div>
       <Header></Header>
       <Homepage recipeLineInfo={homepageData}></Homepage>
+      <Footer></Footer>
     </div>
   );
 }

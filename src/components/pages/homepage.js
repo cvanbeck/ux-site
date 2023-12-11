@@ -8,6 +8,7 @@ const Homepage = ({ recipeLineInfo }) => {
         <div>
             <WelcomeScreen></WelcomeScreen>
             <MiniRecipeLine recipes={christmasSpecials} title={"Christmas Specials"} onClick={buttonAction}></MiniRecipeLine>
+            <div>LOREM IPSUM</div>
         </div>
     )
 }

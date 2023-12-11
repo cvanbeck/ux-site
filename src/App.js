@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { MiniRecipeLine } from "./components/MiniRecipe";
 import recipesJson from "./recipes.json"
+import Homepage from "./components/pages/homepage"
 
 const loadRecipePage = (recipe) => {
   console.log(recipe)
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <div>
-      <MiniRecipeLine recipes={christmasSpecials} title={"Christmas Specials"} onClick={loadRecipePage}></MiniRecipeLine>
+      <Homepage specials={christmasSpecials}></Homepage>
     </div>
   );
 }

@@ -1,7 +1,11 @@
 import { useState } from 'react'
-import { MiniRecipeLine } from "./components/MiniRecipe";
+
 import recipesJson from "./recipes.json"
+
+import { MiniRecipeLine } from "./components/MiniRecipe";
 import Homepage from "./components/pages/homepage"
+import Header from "./components/header"
+
 
 const loadRecipePage = (recipe) => {
   console.log(recipe)
@@ -19,6 +23,7 @@ function App() {
 
   return (
     <div>
+      <Header></Header>
       <Homepage recipeLineInfo={homepageData}></Homepage>
     </div>
   );

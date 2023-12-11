@@ -26,5 +26,5 @@ export default Homepage
 
 
 // Mini recipline layout
- // <MiniRecipeLine recipes={christmasSpecials} title={"Christmas Specials"} onClick={loadRecipePage}></MiniRecipeLine>
+// <MiniRecipeLine recipes={christmasSpecials} title={"Christmas Specials"} onClick={loadRecipePage}></MiniRecipeLine>
 //             <MiniRecipeLine recipes={recipeLineInfo.specials} title={"Christmas Specials"} onClick={recipeLineInfo[1]}></MiniRecipeLine>

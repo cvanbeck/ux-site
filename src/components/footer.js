@@ -1,21 +1,22 @@
 import SearchBar from "./searchbar"
 
-const Footer = () => {
+const Footer = ({ onClick }) => {
     return (
         <div>
             <img src={"/images/logo.png"} alt="Goldfish logo, fork tree combination with recipes made simple tag"></img>
-            <NavColumn></NavColumn>
+            <NavColumn onClick={onClick}></NavColumn>
             <SearchBar></SearchBar>
         </div>
     )
 }
 
-const NavColumn = () => {
+const NavColumn = ({ onClick }) => {
+
     return (
         <div>
-            <button>Home</button>
-            <button>Recipes</button>
-            <button>Favourites</button>
+            <button onClick={onClick[0]}>Home</button>
+            <button onClick={onClick[1]}>Recipes</button>
+            <button onClick={onClick[2]}>Favourites</button>
         </div>
     )
 }

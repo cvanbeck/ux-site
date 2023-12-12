@@ -10,26 +10,73 @@ import Footer from "./components/footer"
 import RecipePage from './components/pages/recipePage';
 
 
-const loadRecipePage = (recipe) => {
-  console.log(recipe)
+
+
+const loadHomepage = () => {
+  return
+}
+
+const loadFavourites = () => {
+  return
+}
+
+const loadRecipePage = () => {
+  return
+}
+
+const loadAllRecipes = () => {
+  return
 }
 
 
 function App() {
   const [recipes, setRecipes] = useState(recipesJson.recipeList) // Loads recupes into state
-  const [currentPage, setCurrentPage] = useState("homepage.js")
-  const [favourites, setFavourites] = useState([])
-  const [recipePage, setRecipePage] = useState(null)
+  const [currentPage, setCurrentPage] = useState("homepage")
 
+  const allRecipes  = Object.entries(recipes)
+
+  const [favourites, setFavourites] = useState(allRecipes[0])
+  const [recipePage, setRecipePage] = useState(null)
   
   const christmasSpecials = [recipes.chestnut, recipes.roastDinner, recipes.christmasPudding]
   const homemadeClassics = []
+
+
   const homepageData = [christmasSpecials, loadRecipePage]
+
+  function homepageButton() {
+    setCurrentPage("homepage")
+  }
   
-  const allRecipes  = Object.entries(recipes)
+  function recipePageButton() {
+    setCurrentPage("recipes")
+  }
+  function favouritesPageButton() {
+    setCurrentPage("favourites")
+  }
+
+  const renderContent = () => {
+    switch (currentPage) {
+      case 'homepage':
+        return <Homepage recipeLineInfo={homepageData} />
+      case 'recipes':
+        return  <RecipeList recipes={allRecipes} pageText={"Latest Recipes"} />
+      case 'favourites':
+        return <RecipeList recipes={allRecipes} pageText={"Favourite Recipes"} />
+      default:
+        return
+  }}
+  
+  
+const navButtonHandlers = [homepageButton, recipePageButton, favouritesPageButton]
+
+
+
   return (
     <div>
-      <RecipePage recipe={recipes.christmasPudding} recipes={christmasSpecials} ></RecipePage>
+      <Footer onClick={navButtonHandlers}></Footer>
+      {/*<RecipePage recipe={recipes.chestnut} recipes={christmasSpecials} ></RecipePage>*/}
+      {renderContent()}
     </div>
   );
 }

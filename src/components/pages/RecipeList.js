@@ -4,7 +4,7 @@
 import { MiniRecipe } from "../MiniRecipe";
 
 const RecipeList = ({ recipes, pageText }) => {
-
+    console.log(recipes)
     return (
         <div>
             <img src="./images/recipePageBackground.png"></img>

@@ -2,29 +2,29 @@
 
 import { MiniRecipeLine } from "../MiniRecipe"
 
-const RecipePage = ({recipe, recipes}) => {
+const RecipePage = ({recipe, recipes, onClick}) => {
     return(
         <div>
             <img src={`images/${recipe.image}`} alt={recipe.alt} width="200px" ></img>
             <div>
-                <HistoryBar recipe={recipe}></HistoryBar>
+                <HistoryBar recipe={recipe} onClick={onClick}></HistoryBar>
                 <RatingBar></RatingBar>
                 <FavouriteButton></FavouriteButton>
                 <IngredientList recipe={recipe}></IngredientList>
             </div>
             <Instructions recipe={recipe}></Instructions>
-            <MiniRecipeLine recipes={recipes} title={"You May Also Like"} onClick={null}></MiniRecipeLine>
+            <MiniRecipeLine recipes={recipes} title={"You May Also Like"} onClick={onClick[3]}></MiniRecipeLine>
         </div>
 
     )
 }
 
-const HistoryBar = ({ recipe }) => {
+const HistoryBar = ({ recipe, onClick }) => {
     return(
         <div>
-            <button>Home</button>
-            <button>Recipes</button>
-            <button>{recipe.recipename}</button>
+            <button onClick={onClick[0]}>Home</button>
+            <button onClick={onClick[1]}>Recipes</button>
+            <button >{recipe.recipename}</button>
         </div>
     )
 }

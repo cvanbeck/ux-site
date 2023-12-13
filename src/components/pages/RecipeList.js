@@ -3,7 +3,7 @@
 
 import { MiniRecipe } from "../MiniRecipe";
 
-const RecipeList = ({ recipes, pageText }) => {
+const RecipeList = ({ recipes, pageText, onClick }) => {
     return (
         <div>
             <img src="./images/recipePageBackground.png"></img>
@@ -13,7 +13,7 @@ const RecipeList = ({ recipes, pageText }) => {
                 <MiniRecipe
                     key={recipe[1].id}
                     recipe={recipe[1]}
-                    onClick={null} />
+                    onClick={onClick} />
             )}
         </div>
     )

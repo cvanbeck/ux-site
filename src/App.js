@@ -14,37 +14,43 @@ import RecipePage from './components/pages/recipePage';
 function App() {
   const [recipes, setRecipes] = useState(recipesJson.recipeList) // Loads recupes into state
   const [currentPage, setCurrentPage] = useState("homepage")
-
+  
   const [recipePage, setRecipePage] = useState(null)
-
+  
   const christmasSpecials = [recipes.chestnut, recipes.roastDinner, recipes.christmasPudding]
   const homemadeClassics = []
   
   
   const allRecipes  = Object.entries(recipes)
   const homepageData = [christmasSpecials]
-
+  
   function homepageButton() {
+    window.scrollTo(0, 0, "instant")
     setCurrentPage("homepage")
   }
   
   function allRecipesPageButton() {
+    window.scrollTo(0, 0, "instant")
     setCurrentPage("latestRecipes")
   }
   function favouritesPageButton() {
+    window.scrollTo(0, 0, "instant")
     setCurrentPage("favourites")
-
   }
-
+  
   function recipePageButton( recipe ){
+    window.scrollTo(0, 0, "instant")
     setRecipePage(recipe)
     setTimeout(() => {
       setCurrentPage('recipe')
     }, 1)
-
+    
     console.log(recipePage)
-
+    
   }
+  
+  const navButtonHandlers = [homepageButton, allRecipesPageButton, favouritesPageButton, recipePageButton]
+  window.scrollTo(0, 0, "instant")
 
   const renderContent = () => {
     switch (currentPage) {
@@ -55,21 +61,21 @@ function App() {
       case 'favourites':
         return <RecipeList recipes={allRecipes} pageText={"Favourite Recipes"} onClick={recipePageButton} />
       case ('recipe'):
-        return <RecipePage recipe={recipePage} recipes={christmasSpecials} onClick={recipePageButton} />
+        return <RecipePage recipe={recipePage} recipes={christmasSpecials} onClick={navButtonHandlers} />
       default:
         return
   }}
   
-  
-const navButtonHandlers = [homepageButton, allRecipesPageButton, favouritesPageButton]
+
 
 
 
   return (
     <div>
-      <Footer onClick={navButtonHandlers}></Footer>
+      <Header onClick={navButtonHandlers}></Header>
       {/*<RecipePage recipe={recipes.chestnut} recipes={christmasSpecials} ></RecipePage>*/}
       {renderContent()}
+      <Footer onClick={navButtonHandlers}></Footer>
     </div>
   );
 }

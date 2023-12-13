@@ -1,13 +1,13 @@
 import { MiniRecipeLine } from "../MiniRecipe"
 
-const Homepage = ({ recipeLineInfo }) => {
+const Homepage = ({ recipeLineInfo, onClick }) => {
     const christmasSpecials = recipeLineInfo[0]
     const buttonAction = recipeLineInfo[1]
 
     return (
         <div>
             <WelcomeScreen></WelcomeScreen>
-            <MiniRecipeLine recipes={christmasSpecials} title={"Christmas Specials"} onClick={buttonAction}></MiniRecipeLine>
+            <MiniRecipeLine recipes={christmasSpecials} title={"Christmas Specials"} onClick={onClick}></MiniRecipeLine>
             <div>LOREM IPSUM</div>
         </div>
     )

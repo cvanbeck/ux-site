@@ -6,15 +6,16 @@ export const MiniRecipeLine = ({ recipes, title, onClick }) => {
                 <MiniRecipe
                     key={recipe.id}
                     recipe={recipe}
-                    onClick={onClick} />
+                    onClick={() => {onClick(recipe)}} />
             )}
         </div>
     )
 }
 
 export const MiniRecipe = ({ recipe, number, onClick }) => {
+
     return (
-        <button onClick={onClick} >
+        <button onClick={() => {onClick(recipe)}} >
             <img src={`images/${recipe.image}`} alt={recipe.alt} width="200px" ></img>
             <div id="number">{number}</div>
             <div id="title">{recipe.recipename}</div>

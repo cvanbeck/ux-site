@@ -3,8 +3,6 @@
 import { MiniRecipeLine } from "../MiniRecipe"
 
 const RecipePage = ({recipe, recipes}) => {
-    console.log(recipes)
-    const randomRecipes = []
     return(
         <div>
             <img src={`images/${recipe.image}`} alt={recipe.alt} width="200px" ></img>

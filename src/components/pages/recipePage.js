@@ -9,7 +9,7 @@ const RecipePage = ({recipe, recipes, onClick}) => {
             <div>
                 <HistoryBar recipe={recipe} onClick={onClick}></HistoryBar>
                 <RatingBar></RatingBar>
-                <FavouriteButton></FavouriteButton>
+                <FavouriteButton recipe={recipe} onClick={onClick}></FavouriteButton>
                 <IngredientList recipe={recipe}></IngredientList>
             </div>
             <Instructions recipe={recipe}></Instructions>
@@ -35,10 +35,10 @@ const RatingBar = ({recipe}) => {
     )
 }
 
-const FavouriteButton = ({ recipe }) => {
+const FavouriteButton = ({ recipe, onClick }) => {
     return (
         <div>
-            <button>Favourite</button>
+            <button onClick={() => {onClick[4](recipe)}}>Favourite</button>
         </div>
     )
 

@@ -62,7 +62,7 @@ function App() {
   const renderContent = () => {
     switch (currentPage) {
       case 'homepage':
-        return <Homepage recipeLineInfo={homepageData} onClick={recipePageButton} />
+        return <Homepage recipeLineInfo={homepageData} onClick={navButtonHandlers} />
       case 'latestRecipes':
         return  <RecipeList recipes={allRecipes} pageText={"Latest Recipes"} onClick={recipePageButton}/>
       case 'favourites':
@@ -82,7 +82,7 @@ function App() {
       <Header onClick={navButtonHandlers}></Header>
       {/*<RecipePage recipe={recipes.chestnut} recipes={christmasSpecials} ></RecipePage>*/}
       {renderContent()}
-      <Footer onClick={navButtonHandlers}></Footer>
+      <Header onClick={navButtonHandlers}></Header>
     </div>
   );
 }
@@ -91,3 +91,4 @@ export default App
 
 
 // Homepage, RecipeList (Favourites and all recipes), RecipePage, Footer, Header
+//       <Footer onClick={navButtonHandlers}></Footer>

@@ -1,13 +1,17 @@
+import "./css/MiniRecipe.css"
+
 export const MiniRecipeLine = ({ recipes, title, onClick }) => {
     return (
-        <div>
+        <div className="recipeLine">
             <h3>{title}</h3>
-            {recipes.map(recipe =>
-                <MiniRecipe
-                    key={recipe.id}
-                    recipe={recipe}
-                    onClick={() => {onClick(recipe)}} />
-            )}
+            <div id="recipes">
+                {recipes.map(recipe =>
+                    <MiniRecipe
+                        key={recipe.id}
+                        recipe={recipe}
+                        onClick={() => { onClick(recipe) }} />
+                )}
+            </div>
         </div>
     )
 }
@@ -15,11 +19,13 @@ export const MiniRecipeLine = ({ recipes, title, onClick }) => {
 export const MiniRecipe = ({ recipe, number, onClick }) => {
 
     return (
-        <button onClick={() => {onClick(recipe)}} >
-            <img src={`images/${recipe.image}`} alt={recipe.alt} width="200px" ></img>
-            <div id="number">{number}</div>
-            <div id="title">{recipe.recipename}</div>
-            <div id="description">{recipe.brief}</div>
-        </button>
+        <div className="content">
+            <button className="miniRecipe" onClick={() => { onClick(recipe) }} >
+                <img src={`images/${recipe.image}`} alt={recipe.alt} width="200px" ></img>
+                <div id="number">{number}</div>
+                <div id="title">{recipe.recipename}</div>
+                <div id="description">{recipe.brief}</div>
+            </button>
+        </div>
     )
 }

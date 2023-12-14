@@ -68,7 +68,7 @@ function App() {
       case 'favourites':
         return <RecipeList recipes={allFavourites} pageText={"Favourite Recipes"} onClick={recipePageButton} />
       case ('recipe'):
-        return <RecipePage recipe={recipePage} recipes={christmasSpecials} onClick={navButtonHandlers} />
+        return <RecipePage recipe={recipePage} recipes={christmasSpecials} onClick={navButtonHandlers} favourites={allFavourites} />
       default:
         return
   }}

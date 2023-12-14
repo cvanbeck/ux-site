@@ -1,4 +1,5 @@
 import { MiniRecipeLine } from "../MiniRecipe"
+import "./css/homepage.css"
 
 const Homepage = ({ recipeLineInfo, onClick }) => {
     const christmasSpecials = recipeLineInfo[0]
@@ -15,10 +16,13 @@ const Homepage = ({ recipeLineInfo, onClick }) => {
 
 const WelcomeScreen = () => {
     return (
-        <div>
-            <img src={"/images/background.png"} alt="Christmas dinner table" width="100%"></img>
-            <h1>Homemade Recipes To</h1>
-            <h1>Warm You Up This Winter</h1>
+        <div className="welcomeScreen">
+            <img id="backgroundImage" src={"/images/background.png"} alt="Christmas dinner table" width="100%"></img>
+            <div id="textContainer">
+                <h1>Homemade Recipes To</h1>
+                <h1 className="orangeText">Warm You Up This Winter</h1>
+                <button>Latest Recipes</button>
+            </div>
         </div>
     )
 }

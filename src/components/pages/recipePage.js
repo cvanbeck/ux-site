@@ -2,14 +2,14 @@
 
 import { MiniRecipeLine } from "../MiniRecipe"
 
-const RecipePage = ({recipe, recipes, onClick}) => {
+const RecipePage = ({recipe, recipes, onClick, favourites}) => {
     return(
         <div>
             <img src={`images/${recipe.image}`} alt={recipe.alt} width="200px" ></img>
             <div>
                 <HistoryBar recipe={recipe} onClick={onClick}></HistoryBar>
                 <RatingBar></RatingBar>
-                <FavouriteButton recipe={recipe} onClick={onClick}></FavouriteButton>
+                <FavouriteButton recipe={recipe} onClick={onClick} favourites={favourites}></FavouriteButton>
                 <IngredientList recipe={recipe}></IngredientList>
             </div>
             <Instructions recipe={recipe}></Instructions>
@@ -35,10 +35,13 @@ const RatingBar = ({recipe}) => {
     )
 }
 
-const FavouriteButton = ({ recipe, onClick }) => {
+const FavouriteButton = ({ recipe, onClick, favourites }) => {
+    console.log(recipe, favourites)
+    const isFavourited = favourites.includes(recipe)
+    console.log(favourites.includes(recipe))
     return (
         <div>
-            <button onClick={() => {onClick[4](recipe)}}>Favourite</button>
+            <button onClick={() => {onClick[4](recipe)}}>{isFavourited ? "Remove Favourite" : "Favourite" }</button>
         </div>
     )
 

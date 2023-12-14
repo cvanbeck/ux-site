@@ -1,0 +1,58 @@
+.welcomeScreen {
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.welcomeScreen #backgroundImage{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    opacity: 50%;
+}
+
+.welcomeScreen #textContainer{
+    gap: -10px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+
+}
+
+.welcomeScreen h1 {
+    font-weight:700;
+    margin: 10px;
+}
+
+.orangeText {
+    color: #ffa834 !important;
+}
+
+.welcomeScreen button {
+    background-color: #ffa834;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: 700;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.welcomeScreen button:hover{
+    background-color: #b89360;
+}
+
+.welcomeScreen button:active{
+    background-color: #b89360;
+    translate: 0px 2px;
+}

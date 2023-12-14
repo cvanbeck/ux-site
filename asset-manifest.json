@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/io/ux-site/static/css/main.274eb82c.css",
+    "main.js": "/io/ux-site/static/js/main.ecfb6086.js",
+    "index.html": "/io/ux-site/index.html",
+    "main.274eb82c.css.map": "/io/ux-site/static/css/main.274eb82c.css.map",
+    "main.ecfb6086.js.map": "/io/ux-site/static/js/main.ecfb6086.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.274eb82c.css",
+    "static/js/main.ecfb6086.js"
+  ]
+}

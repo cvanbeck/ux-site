@@ -1,0 +1,115 @@
+{
+    "recipeList": {
+        "chestnut": {
+            "recipename": "Roast Chestnuts",
+            "id": 1,
+            "brief": "Roasted chestnut is a popular autumn and winter street food in East Asia, Europe, and New York City. Asian chestnuts as well as European chestnuts can be used.",
+            "image": "chestnuts.png",
+            "alt": "picture of roasted chestnuts",
+            "rating": "None",
+            "ingredients": [
+                "350g chestnuts",
+                "½ tbsp sea salt flakes",
+                "2 tsp soft light brown sugar",
+                "½ tsp ground cinnamon",
+                "¼ tsp mixed spice"
+
+            ],
+            "largerIntro": "Indulge in the quintessential fireside delight this Christmas with a recipe for roasted chestnuts, featuring a harmonious blend of sugar, spice, and delightful elements. Master the art of roasting chestnuts to perfection and enhance their festive charm by generously sprinkling them with a mix of cinnamon sugar and salt. Immerse yourself in the true essence of the holiday season with this flavorful and comforting treat.",
+            "instructions": [
+                "Preheat the Oven: Preheat the oven to gas mark 6 (around 200°C or 180°C for a fan oven).",
+                "Prepare Chestnuts: Using a sharp knife, create a cross on the top of each chestnut, cutting through the shell but not entirely.",
+                "Roasting: Place the prepared chestnuts in a roasting tin with the cross side facing up. Roast for 25-30 minutes until the shell starts peeling away from the nut inside.",
+                "Prepare Spiced Salt: While the chestnuts are roasting, combine salt, sugar, cinnamon, and mixed spice in a small bowl to create the spiced salt mixture.",
+                "Peeling Chestnuts: Allow the roasted chestnuts to cool until they are just manageable. Peel away the shell and papery husk from each chestnut.",
+                "Spice and Serve: Sprinkle the spiced salt over the peeled chestnuts. Serve the chestnuts with the remaining spiced salt as a dipping seasoning."
+            ]
+        },
+        "roastDinner": {
+            "recipename": "Roast Dinner",
+            "id": 2,
+            "brief": "Elevate your Christmas feast with our extraordinary roast turkey and gravy recipe. Achieving sensational flavor doesn't require extensive effort, making it the perfect choice for a delicious holiday centerpiece.",
+            "image": "dinner.png",
+            "alt": "roast dinner at christmas recipe",
+            "rating": "None",
+            "ingredients": [
+                "5-6kg oven-ready turkey",
+                "180g butter",
+                "3 garlic cloves",
+                "Large handful of herbs (i.e, parsley, thyme, or bay), leaves picked and chopped, stalks reserved",
+                "thyme for serving (optional)",
+                "2 lemons, juice of 1 lemon"
+            ],
+            "largerIntro": "This majestic turkey centerpiece is guaranteed to make a lasting impression on Christmas Day. The meat is not only succulent and tender but also enhanced by the earthy, nutty flavor of pistachio stuffing and the velvety zing of citrus butter. To streamline your Christmas dinner preparations, you can prepare and freeze the stuffing a month in advance. Additionally, consider buttering and stuffing the turkey the day before, keeping it chilled until you're ready to roast and serve.",
+            "instructions": [
+                "Begin by making the stuffing: heat the oil and butter in a pan. Add the shallots and cook for 5 minutes. Stir through the garlic and thyme and fry for 1 minute more. Transfer to a bowl; fold through the nuts, breadcrumbs and lemon zest and juice. Leave to cool a little, then add the parsley and enough egg to bind. Season well, then mix together with your hands. Set aside.",
+                "For the citrus butter, combine all the ingredients in a bowl. Season well. Set aside.", 
+                "Preheat the oven to gas 5, 190°C, fan 170°C. Using your fingers, gently loosen the skin at the neck end of the turkey, being careful to keep it intact. Push the citrus butter under the skin and spread it evenly over the breast.",
+                "Fill the neck pocket with the stuffing*, packing it in tightly. (If you cant fit it all in, roll the remainder into balls and add to the tin for the final 45 minutes of cooking.) Tuck the skin under and secure it with a cocktail stick. Drizzle the turkey with the oil; season well. Stuff the cavity with the rosemary, plus the leftover clementine and lemon halves from the butter.",
+                "Roast the turkey for 3 hours 15 minutes, basting occasionally with the pan juices. Check the bird regularly; when the skin has turned golden, cover with kitchen foil for the remaining cooking time. Add the citrus halves to the roasting tin for the final 45 minutes.",
+                "As cooking times will vary according to the weight of your turkey and stuffing, ensure it is cooked all the way through with no pink meat showing. Remove from the oven and transfer to a serving plate, tipping it as you lift so the juices run back into the tin (reserve for the gravy). Cover with foil and leave to rest for 1-2 hours.",
+                "For the gravy, skim the fat from the roasting tin and discard. Put the tin on the hob over a medium heat. Stir in the flour with a wooden spoon, scraping up all the sticky bits from the bottom. Pour in the wine, simmer for 1 minute, then add the stock and the cranberry sauce. Simmer until reduced; season to taste. Set aside until needed.",
+                "When ready to serve, reheat the gravy and garnish the turkey with the roasted citrus fruits and bay leaves."
+            ]
+        },
+        "christmasPudding": {
+            "recipename": "Christmas Pudding",
+            "id": 3,
+            "brief": "A homemade Christmas pudding is easy to make, then it just needs time in the steamer to turn it into a glorious, rich, fruity dessert. A festive classic.",
+            "image": "pudding.png",
+            "alt": "Christmas pudding recipe",
+            "rating": "None",
+            "ingredients": [
+                "50g blanched almonds",
+                "2 large Bramley cooking apples",
+                "200g box candied peel (in large pieces) or all citron if you can find it",
+                "1 whole nutmeg (you'll use three quarters of it)",
+                "1kg raisins",
+                "140g plain flour",
+                "100g soft fresh white breadcrumbs",
+                "100g light muscovado sugar, crumbled if it looks lumpy",
+                "3 large eggs",
+                "2 tbsp brandy or cognac, plus extra to light the pudding",
+                "250g packet butter, taken straight from the fridge"
+            ],
+            "largerIntro": "Crafting a homemade Christmas pudding is a straightforward process, requiring only some time in the steamer to transform it into a splendid, rich, and fruity dessert. It's a timeless festive classic that brings warmth and indulgence to your holiday celebrations.",
+            "instructions": [
+                "Get everything for the pudding prepared. Chop the almonds coarsely. Peel, core and chop the cooking apples. Sharpen your knife and chop the candied peel. (You can chop the almonds and apples in a food processor, but the peel must be done by hand.) Grate three quarters of the nutmeg (sounds a lot but it's correct).",
+                "Mix the almonds, apples, candied peel, nutmeg, raisins, flour, breadcrumbs, light muscovado sugar, eggs and 2 tbsp brandy or cognac in a large bowl.",
+                "Holding the butter in its wrapper, grate a quarter of it into the bowl, then stir everything together. Repeat until all the butter is grated, then stir for 3-4 mins – the mixture is ready when it subsides slightly after each stir. Ask the family to stir too, and get everyone to make a wish.",
+                "Generously butter two 1.2 litre bowls and put a circle of baking parchment in the bottom of each. Pack in the pudding mixture. Cover with a double layer of baking parchment, pleating it to allow for expansion, then tie with string (keep the paper in place with a rubber band while tying). Trim off any excess paper.",
+                "Now stand each bowl on a large sheet of foil and bring the edges up over the top, then put another sheet of foil over the top and bring it down underneath to make a double package (this makes the puddings watertight). Tie with more string, and make a handle for easy lifting in and out of the pan. Watch our video to see how to tie up a pudding correctly.",
+                "Boil or oven steam the puddings for 8 hrs, topping up with water as necessary. Remove from the pans and leave to cool overnight. When cold, discard the messy wrappings and re-wrap in new baking parchment, foil and string. Store in a cool, dry place until Christmas.",
+                "To make the brandy butter, cream the butter with the orange zest and icing sugar. Gradually beat in the brandy or cognac and chopped stem ginger. Put in a small bowl, fork the top attractively and put in the fridge to set. The butter will keep for a week in the fridge, or it can be frozen for up to six weeks.",
+                "On Christmas Day, boil or oven steam for 1 hr. Unwrap and turn out. To flame, warm 3-4 tbsp brandy in a small pan, pour it over the pudding and set light to it."
+            ]
+         },
+        "bangersandMash": {
+            "recipename": "Bangers & Mash",
+            "id": 4,
+            "brief": "Make sausages and mash with love and you're in for a real treat. We’ve perfected this recipe to make it the very best it can be",
+            "image": "pudding.png",
+            "alt": "Bangers and Mash",
+            "rating": "None",
+            "ingredients": [
+                "1 tbsp sunflower oil",
+                "8 pork sausages (the best quality you can find)",
+                "small knob of butter",
+                "3 small onions, finely sliced",
+                "1 thyme sprig",
+                "1 bay leaf",
+                "pinch of sugar",
+                "1 heaped tsp plain flour",
+                "1 tsp soy sauce",
+                "1 glass red wine",
+                "400ml beef stock made with 1 stock shot or cube"
+            ],
+            "largerIntro": "A classic British and Irish dish, bangers and mash is simply sausage and mashed potatoes. An onion gravy ties it all together, adding even more flavor to this rich, yet comforting dish.You can find versions of bangers on mash on pub menus across the U.K., but there's something especially good about one that's homemade. Not only it is an easy recipe to pull together, but it's also a cheap, yet very substantial meal that's a guaranteed hit with the family.",
+            "instructions": [
+                "Heat the oven to 200C/180C fan/gas 6. Heat the oil in an ovenproof frying pan and gently sizzle the sausages over a medium-high heat for 8-10 mins, turning them, until browned on all sides. Transfer to a plate, then put the butter in the pan and heat until sizzling. Scatter in the onions, stirring them into the butter, then add the thyme sprig, bay and sugar. Give everything a final stir, then put the sausages on top and drizzle over any juices from the plate. Roast everything for 20 mins, turning the sausages halfway through.",
+                "Meanwhile, make the mash. Tip the potatoes into a pan of cold salted water and bring to the boil, then turn down and simmer for 10-12 mins or until just cooked all the way through (the tip of a knife should slide in easily). Drain in a colander and leave for a minute. Tip the milk into the pan and bring to a simmer, then pass the potatoes through a ricer into the hot milk and mash thoroughly. Once mashed, beat with a wooden spoon or spatula over very low heat, then beat in the butter a few bits at a time. You should have extra-fluffy, smooth mash. Keep it warm.",
+                "When the sausages are cooked, remove from the oven, turn the oven off and lift the sausages onto a tray. Return them to the oven to keep warm. Put the pan back on the heat and give the roasted onions a stir, they should be sticky and slightly burnt around the edges. Sizzle for a minute or two more to caramelise, then stir in the flour and cook for another minute. Splash in the vinegar, simmer for a minute, then pour over the red wine and soy, and bubble down to a gloopy paste. Pour over the stock and boil for 3-4 mins, or until you have a rich gravy. If you prefer, scoop out the thyme and bay, or just leave it in. Tip into a bowl or gravy jug with a serving spoon for the onions. Bring everything to the table and scoop a big mound of mash onto the middle of each plate, then top with the sausages and gravy."
+            ]
+        }
+    }
+}

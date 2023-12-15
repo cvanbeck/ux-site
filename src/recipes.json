@@ -13,8 +13,8 @@
                 "2 tsp soft light brown sugar",
                 "½ tsp ground cinnamon",
                 "¼ tsp mixed spice"
-
             ],
+
             "largerIntro": "Indulge in the quintessential fireside delight this Christmas with a recipe for roasted chestnuts, featuring a harmonious blend of sugar, spice, and delightful elements. Master the art of roasting chestnuts to perfection and enhance their festive charm by generously sprinkling them with a mix of cinnamon sugar and salt. Immerse yourself in the true essence of the holiday season with this flavorful and comforting treat.",
             "instructions": [
                 "Preheat the Oven: Preheat the oven to gas mark 6 (around 200°C or 180°C for a fan oven).",
@@ -83,12 +83,12 @@
                 "To make the brandy butter, cream the butter with the orange zest and icing sugar. Gradually beat in the brandy or cognac and chopped stem ginger. Put in a small bowl, fork the top attractively and put in the fridge to set. The butter will keep for a week in the fridge, or it can be frozen for up to six weeks.",
                 "On Christmas Day, boil or oven steam for 1 hr. Unwrap and turn out. To flame, warm 3-4 tbsp brandy in a small pan, pour it over the pudding and set light to it."
             ]
-         },
+        },
         "bangersandMash": {
             "recipename": "Bangers & Mash",
             "id": 4,
             "brief": "Make sausages and mash with love and you're in for a real treat. We’ve perfected this recipe to make it the very best it can be",
-            "image": "pudding.png",
+            "image": "bangers.png",
             "alt": "Bangers and Mash",
             "rating": "None",
             "ingredients": [
@@ -110,6 +110,65 @@
                 "Meanwhile, make the mash. Tip the potatoes into a pan of cold salted water and bring to the boil, then turn down and simmer for 10-12 mins or until just cooked all the way through (the tip of a knife should slide in easily). Drain in a colander and leave for a minute. Tip the milk into the pan and bring to a simmer, then pass the potatoes through a ricer into the hot milk and mash thoroughly. Once mashed, beat with a wooden spoon or spatula over very low heat, then beat in the butter a few bits at a time. You should have extra-fluffy, smooth mash. Keep it warm.",
                 "When the sausages are cooked, remove from the oven, turn the oven off and lift the sausages onto a tray. Return them to the oven to keep warm. Put the pan back on the heat and give the roasted onions a stir, they should be sticky and slightly burnt around the edges. Sizzle for a minute or two more to caramelise, then stir in the flour and cook for another minute. Splash in the vinegar, simmer for a minute, then pour over the red wine and soy, and bubble down to a gloopy paste. Pour over the stock and boil for 3-4 mins, or until you have a rich gravy. If you prefer, scoop out the thyme and bay, or just leave it in. Tip into a bowl or gravy jug with a serving spoon for the onions. Bring everything to the table and scoop a big mound of mash onto the middle of each plate, then top with the sausages and gravy."
             ]
+        },   
+        "shepardsPie": {
+        "recipename": "Shepards Pie",
+        "id": 5,
+        "brief": "The Best Classic Shepherd’s Pie – AKA Shepards Pie or Cottage Pie. Ground Beef (or lamb) with vegetables in a rich gravy, topped with cheesy mashed potatoes, and baked.",
+        "image": "shepards.png",
+        "alt": "Shepards Pie",
+        "rating": "None",
+        "ingredients": [
+            "2 tablespoons olive oil",
+            "1 cup chopped yellow onion",
+            "1 lb. 90% lean ground beef -or ground lamb",
+            "2 teaspoons dried parsley leaves",
+            "1 teaspoon dried rosemary leaves",
+            "1 ½ - 2 lb. russet potatoes -about 2 large potatoes peeled and cut into 1 inch cubes",
+            "8 tablespoons unsalted butter -1 stick",
+            "2 tablespoons tomato paste",
+            "1/4 cup parmesan cheese",
+            "2 tablespoons tomato paste",
+            "2 garlic cloves -minced"
+        ],
+        "largerIntro": "Making the best Shepherd’s Pie is not difficult.  But, there are a few steps to it.  You have to make the meat mixture, the mashed potatoes, assemble the casserole, and bake it. I find that the easiest way to make this dish is to work ahead.  You could make the beef or lamb mixture ahead of time.  Or, you could make the mashed potatoes ahead of time.",
+        "instructions": [
+            "Add the oil to a large skillet and place it over medium-high heat for 2 minutes. Add the onions. Cook 5 minutes, stirring occasionally",
+            "Add the ground beef (or ground lamb) to the skillet and break it apart with a wooden spoon. Add the parsley, rosemary, thyme, salt, and and pepper. Stir well. Cook for 6-8 minutes, until the meat is browned, stirring occasionally.",
+            "Add the Worcestershire sauce and garlic. Stir to combine. Cook for 1 minute.",
+            "Add the flour and tomato paste. Stir until well incorporated and no clumps of tomato paste remain.",
+            "Add the broth, frozen peas and carrots, and frozen corn. Bring the liquid to a boil then reduce to simmer. Simmer for 5 minutes, stirring occasionally."
+
+            ]
+        },
+        "pastaBake": {
+            "recipename": "Pasta Bake",
+            "id": 6,
+            "brief": "This Pasta Bake recipe is an easy make-ahead meal that can be made with ziti, rigatoni, or penne. It’s filled with a meaty marinara sauce and topped with a cheesy ricotta mixture and mozzarella cheese.",
+            "image": "pasta.png",
+            "alt": "Pasta Bake",
+            "rating": "None",
+            "ingredients": [
+                "1 lb. Pasta, ziti, penne, or rigatoni",
+                "1 cup Ricotta cheese",
+                "¼ cup Parmesan cheese, finely grated",
+                "1 egg, whisked",
+                "2 ½ cups mozzarella cheese, separated",
+                "1 small yellow onion",
+                "1/8 teaspoon red pepper flakes"
+        ],
+
+            "largerIntro": "Nothing beats a cheesy, meaty pasta bake recipe. This is my go-to recipe for feeding a crowd because it’s easy to make ahead of time, there are a variety of pasta choices, and it always leaves people feeling satisfied. The pasta is smothered in plenty of meaty marinara sauce and topped with a cheesy ricotta mixture along with mozzarella cheese. Every bite is filled with flavor. Let’s get into everything you need to know!",
+            "instructions": [
+                "Cook the meat/onions/seasonings as outlined and then remove from heat. Add the marinara sauce and stir to combine. Let cool.",
+                "Boil pasta and assemble casserole as outlined.",
+                "Cover and refrigerate for up to 2 days.",
+                "Add an additional 10 minutes of covered baking time. (Bake covered at 375° for 30 minutes. Add the cheese and bake uncovered at 400° for 10-15 minutes.)",
+                "You can also freeze the assembled casserole. Let it defrost in the fridge for 24 hours prior to baking."
+
+            ]
         }
     }
 }
+
+            

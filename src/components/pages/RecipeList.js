@@ -4,15 +4,14 @@
 import { MiniRecipe } from "../MiniRecipe";
 import "./css/RecipeList.css"
 
-const RecipeList = ({ recipes, pageText, onClick }) => {
+const RecipeList = ({ recipes, pageText, onClick, image }) => {
     console.log(recipes)
     return (
         <div className="recipeList">
             <div className="introContainer">
-                <img id="bigImage" src="./images/recipePageBackground.png"></img>
+                <img id="bigImage" src={`./images/${image}`}></img>
                 <div id="textContainer">
                     <h2>{pageText}</h2>
-                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate</div>
                 </div>
             </div>
             <div className="recipeContainer">

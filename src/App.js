@@ -18,12 +18,12 @@ function App() {
   const [favourites, setFavourites] = useState([])
 
   const christmasSpecials = [recipes.chestnut, recipes.roastDinner, recipes.christmasPudding]
-  const homemadeClassics = []
+  const homemadeClassics = [recipes.bangersandMash, recipes.shepardsPie, recipes.pastaBake]
   
   
   const allRecipes  = Object.entries(recipes)
   const allFavourites = Object.entries(favourites)
-  const homepageData = [christmasSpecials]
+  const homepageData = [christmasSpecials, homemadeClassics]
   
   function homepageButton() {
     window.scrollTo(0, 0, "instant")
@@ -64,9 +64,9 @@ function App() {
       case 'homepage':
         return <Homepage recipeLineInfo={homepageData} onClick={navButtonHandlers} />
       case 'latestRecipes':
-        return  <RecipeList recipes={allRecipes} pageText={"Latest Recipes"} onClick={recipePageButton}/>
+        return  <RecipeList recipes={allRecipes} pageText={"Latest Recipes"} onClick={recipePageButton} image={"recipePageBackground.png"}/>
       case 'favourites':
-        return <RecipeList recipes={allFavourites} pageText={"Favourite Recipes"} onClick={recipePageButton} />
+        return <RecipeList recipes={allFavourites} pageText={"Favourite Recipes"} onClick={recipePageButton} image={"chestnuts.png"}/>
       case ('recipe'):
         return <RecipePage recipe={recipePage} recipes={christmasSpecials} onClick={navButtonHandlers} favourites={allFavourites} />
       default:

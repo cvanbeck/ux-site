@@ -4,7 +4,7 @@ import "./css/header.css"
 const Header = ({ onClick }) => {
     return (
         <div className="header">
-            <img id="logo" src={"/images/logo.png"} alt="Goldfish logo, fork tree combination with recupes made simple tag"></img>
+            <img id="logo" src={"./images/logo.png"} alt="Goldfish logo, fork tree combination with recupes made simple tag"></img>
             <NavMenu onClick={onClick}></NavMenu>
             <SearchBar></SearchBar>
         </div>
